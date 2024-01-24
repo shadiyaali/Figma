@@ -10,6 +10,8 @@ const Service = () => {
 <p className="typography gap-[68px] ">our services</p>
 <p className="heading w-[798px] h-[124px] mb-4 ">Efficient and Reliable Shipping with FastGo</p>
 <div className="flex gap-[20px]">
+
+
 <div className="card1 w-[367px] h-[340px]  justify-start "
  style={{
     background: "var(--Dark-Blue-2, #121d50)",
@@ -23,6 +25,7 @@ const Service = () => {
 <p className="text-card justify-start text-white ">Ocean Shipping</p>
 <p className="sub-heading justify-start text-white">we believe in providing our clients with personalized and efficient logistics solutions that meet their unique needs. </p>
 </div>
+
 <div className="card1 w-[367px] h-[340px]  justify-start  bg-white">
 <img
           src={logo2}

@@ -42,6 +42,7 @@
   align-items: flex-start;
   gap: 32px;
   border-radius: 12px;
+  text-align: start;
   /* background: var(--Dark-Blue-1, #121d50); */
 }
 .text-card {
