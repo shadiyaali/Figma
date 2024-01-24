@@ -24,6 +24,8 @@
   font-weight: 700;
   line-height: 130%; /* 62.4px */
   text-transform: uppercase;
+  text-align: justify;
+  text-align: left;
 }
 .sub-heading {
   color: var(--Grey-2, #5c6c7b);
@@ -33,16 +35,22 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 25.2px */
+  line-height: 140%;
+  text-align: justify;
+  text-align: left;  
 }
 .dotted-line {
-  width: 1140px;
-  height: 2px;
-  background: #5c6c7b;
-}
+    width: 85%;
+    height: 2px;
+    margin: 0 auto; /* Add this line to center the line horizontally */
+    background: linear-gradient(to right, #5c6c7b 50%, transparent 50%);
+    background-size: 8px 2px;
+  }
+  
+  
 .icon-outer {
   display: inline-flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   gap: 119px;
 }
 
@@ -69,14 +77,4 @@
   line-height: 130%; /* 32.5px */
   text-transform: uppercase;
 }
-.sub-text {
-  color: var(--Grey-2, #5c6c7b);
-  text-align: center;
-
-  /* Body 2 */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 22.4px */
-}
+ 

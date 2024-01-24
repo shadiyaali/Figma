@@ -1,0 +1,28 @@
+.text-sub {
+    color: var(--White, #FFF);
+
+/* Body 1 */
+font-family: "Space Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+}
+.font-text
+{
+    color: var(--White, #FFF);
+
+/* Heading 5 */
+font-family: "Space Grotesk";
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 32.5px */
+text-transform: uppercase;
+}
+.dotted-line {
+    width: 85%;
+    height: 1px;
+    background: linear-gradient(to right, #5c6c7b 50%, transparent 50%);
+    background-size: 6px 4px;
+}

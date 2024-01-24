@@ -19,7 +19,11 @@ const About = () => {
             experience and a team of experts, we are dedicated to empowering
             your business with seamless shipping experiences.
           </p>
-          <button className="  px-14 py-4 border  bg-color1 mt-4 text-white rounded-md uppercase ">
+          <button className="  px-14 py-4 border   mt-4 text-white rounded-md uppercase "
+          style={{
+            borderRadius: "8px",background: "#1195D6"
+
+          }}>
             Learn More
           </button>
         </div>
@@ -35,24 +39,24 @@ const About = () => {
       </div>
       <div className="w-full flex justify-center items-center">
         <div className="flex gap-[20px] px-32 py-12 justify-between">
-          <div className="about-card ml-12 w-[20rem] h-28 gap-3">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white  pe-4 border-dashed ">
+          <div className="about-card ml-12 w-[367px] h-[160px] gap-3">
+            <p className="Typography text-center flex justify-center items-center   text-xl font-bold text-white border border-transparent border-r-white w-[203px] h-[64px] pe-4 border-dashed ">
               01
             </p>
-            <p className="Typography text-lg font-semibold text-white text-start w-full ">
+            <p className="Typography text-lg font-semibold text-white text-start  ">
               Expertise and Experience
             </p>
           </div>
-          <div className="about-card w-auto h-28 gap-3">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-4 border-dashed ">
+          <div className="about-card w-[367px] h-[160px] gap-3">
+            <p className="Typography text-center flex justify-center items-center  text-xl font-bold w-[203px]  h-[64px] text-white border border-transparent border-r-white pe-4 border-dashed ">
               02
             </p>
             <p className="Typography text-lg font-semibold text-white text-start w-full ">
               Committed to Quality
             </p>
           </div>
-          <div className="about-card w-auto h-28 gap-3">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-4 border-dashed">
+          <div className="about-card w-[367px] h-[160px] gap-3">
+            <p className="Typography text-center flex justify-center items-center  w-[203px]  h-[64px] text-xl font-bold text-white border border-transparent border-r-white pe-4 border-dashed">
               03
             </p>
             <p className="Typography text-lg font-semibold text-white text-start w-full">
