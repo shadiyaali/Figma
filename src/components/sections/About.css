@@ -1,0 +1,21 @@
+.about-card {
+display: flex;
+padding: 48px 39px ;
+justify-content: start;
+align-items: center;
+border-radius: 18px;
+background: var(--Dark-Blue-2, #090E23);
+ 
+ 
+}
+.Typography {
+    color: var(--White, #FFF);
+
+    /* Heading 5 */
+    font-family: "Space Grotesk";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+    text-transform: uppercase;
+}

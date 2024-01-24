@@ -1,0 +1,43 @@
+/* In your CSS or using Tailwind CSS */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+.space-grotesk-font {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.text-subheading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.095em;
+  text-align: left;
+  font-family: "Space Grotesk";
+}
+
+.text-heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 1040px;
+}
+.text-about-heading {
+  color: var(--Dark-Blue-1, #121d50);
+
+  font-family: "Space Grotesk";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;  
+  text-transform: uppercase;
+  text-align: left;
+}
+.text-body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 560px;
+}

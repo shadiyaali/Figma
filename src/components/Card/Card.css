@@ -1,0 +1,10 @@
+.card-center {
+display: flex;
+height: 246px;
+padding: 0px 150px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0; 
+background: #1195D6;
+ 
+}

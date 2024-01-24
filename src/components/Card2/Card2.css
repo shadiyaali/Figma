@@ -1,0 +1,33 @@
+.outer-pic {
+  width: 1510.244px;
+  height: 774px;
+  flex-shrink: 0;
+}
+.typo {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Heading 1 */
+  font-family: "Space Grotesk";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 83.2px */
+  text-transform: uppercase;
+}
+.sub-text {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Body 1 */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+.play-icon {
+  width: 132px;
+  height: 132px;
+  flex-shrink: 0;
+}
