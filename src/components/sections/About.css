@@ -13,7 +13,7 @@ background: var(--Dark-Blue-2, #090E23);
 
     /* Heading 5 */
     font-family: "Space Grotesk";
-    font-size: 25px;
+    /* font-size: 15px; */
     font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 32.5px */

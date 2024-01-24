@@ -34,25 +34,25 @@ const About = () => {
         />
       </div>
       <div className="w-full flex justify-center items-center">
-        <div className="flex gap-[20px] py-3 justify-evenly">
-          <div className="about-card w-full gap-[16px] ">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white  pe-8 border-dashed ">
+        <div className="flex gap-[20px] px-32 py-12 justify-between">
+          <div className="about-card ml-12 w-[20rem] h-28 gap-3">
+            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white  pe-4 border-dashed ">
               01
             </p>
             <p className="Typography text-lg font-semibold text-white text-start w-full ">
               Expertise and Experience
             </p>
           </div>
-          <div className="about-card w-full gap-[16px]">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-6 border-dashed ">
+          <div className="about-card w-auto h-28 gap-3">
+            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-4 border-dashed ">
               02
             </p>
             <p className="Typography text-lg font-semibold text-white text-start w-full ">
               Committed to Quality
             </p>
           </div>
-          <div className="about-card w-full gap-[16px]">
-            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-6 border-dashed">
+          <div className="about-card w-auto h-28 gap-3">
+            <p className="Typography text-xl font-bold text-white border border-transparent border-r-white pe-4 border-dashed">
               03
             </p>
             <p className="Typography text-lg font-semibold text-white text-start w-full">

@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <div className="h-full mx-auto p-10 relative bg-home-background bg-cover">
-        <div className=" top-110 left-150 gap-24 p-6 text-left space-grotesk-font">
+        <div className=" top-110 left-150 gap-20 p-6 text-left space-grotesk-font">
           <div className="w-11/12">
             <p className="text-subheading text-white mb-3">
               We are the Best Logistic Company

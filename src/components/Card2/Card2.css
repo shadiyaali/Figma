@@ -1,7 +1,8 @@
 .outer-pic {
-  width: 1510.244px;
+  width: 100vw;
   height: 774px;
   flex-shrink: 0;
+
 }
 .typo {
   color: var(--White, #fff);

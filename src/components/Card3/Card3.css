@@ -1,5 +1,5 @@
 .outer-layer {
-  width: 1440px;
+  width: 100vw;
   height: 1064px;
   flex-shrink: 0;
   background: var(--Grey-1, #edf0f3);

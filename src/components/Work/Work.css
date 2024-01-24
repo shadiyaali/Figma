@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk:wght@400;700&display=swap");
 
 .top-most {
-  width: 1440px;
+  width: 100vw;
   height: 1051px;
   flex-shrink: 0;
 }
