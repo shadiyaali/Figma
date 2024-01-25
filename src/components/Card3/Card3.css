@@ -7,44 +7,9 @@
   
   
   
-  .right-section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 0.5;
-     
-  }
   
-  .box-last {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
   
-    padding: 20px;
-  }
-  
-  .sub-head, .sub-text-head {
-    /* color: var(--White, #FFF); */
-    font-family: "Space Grotesk";
-    text-transform: uppercase;
-    margin: 0;
-    color: var(--Dark-Blue-1, #121D50)!important;
-  }
-  
-  .sub-head {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1.33px;
-    line-height: 100%;
-  }
-  
-  .sub-text-head {
-    font-size: 2.3rem;
-    font-weight: 700;
-    letter-spacing: 1.71px;
-    line-height: 130%;
-  }
+   
   
   /* Add styles for other elements as needed */
   

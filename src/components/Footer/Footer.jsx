@@ -1,39 +1,55 @@
 import React from "react";
 import logo from "../../../src/assets/images/Group.png";
-import "./Footer.css";
+// import "./Footer.css";
 import logo9 from "../../../src/assets/images/man.png";
 
 const Footer = () => {
   return (
     <>
       <div
-        className=""
+        className="mb-12 pl-20 mt-8"
         style={{
           background: "var(--Dark-Blue-2, #090E23)",
         }}
       >
-        <div className="w-[100%] h-[470px] mt-20 bg-red-300 flex items-center">
+        <div className=" mt-20  flex items-center">
           <div className="flex-col">
-            <img src={logo} alt="Logo" className="w-[283px] h-[83px] mt-12 ml-24" />
-            <p className="text-sub w-[391px] h-[93px] mt-4 mb-16 ml-24">
-              we believe in providing our clients with personalized and efficient logistics solutions that meet their unique needs.
+            <img src={logo} alt="Logo" className=" mt-12 ml-24" />
+            <p
+              className="  text-[16px]  not-italic font-medium leading-[120%]    mt-4 mb-16 ml-24"
+              style={{ fontFamily: "SpaceGrotesk", color: "var(--White,#FFF)" }}
+            >
+              We believe in providing our clients with<br/> personalized and
+              efficient logistics<br/> solutions that meet their unique <br/> needs.
             </p>
           </div>
-          <div className="w-[140px] h-[176px] ml-14">
-            <p className="font-text w-[140px] h-[32px]">Navigation</p>
-            <p className="w-[89px] h-[25px] text-start text-white mt-4">Home</p>
-            <p className="w-[89px] h-[25px] text-start text-white  mt-2">Home</p>
-            <p className="w-[89px] h-[25px] text-start text-white  mt-2">Home</p>
-            <p className="w-[89px] h-[25px] text-start text-white  mt-2">Home</p>
+          <div className=" ml-14">
+            <p
+              className="  text-[20px] not-italic font-bold leading-[130%] uppercase f  "
+              style={{ color: "var(--White,#FFF)" }}
+            >
+              Navigation
+            </p>
+
+            <p className=" text-start text-white mt-4">Home</p>
+            <p className="  text-start text-white  mt-2">About Us</p>
+            <p className="  text-start text-white  mt-2">Services</p>
+            <p className="  text-start text-white  mt-2">Contact Us</p>
           </div>
-          <div className="w-[213px] h-[176px] ml-14">
-            <p className="font-text w-[204px] h-[32px]">Recent Project</p>
+          <div className="  ml-14">
+            <p className="text-[color:var(--White,#FFF)] text-[20px] not-italic font-bold leading-[130%] uppercase font-SpaceGrotesk  ">
+              Recent Project
+            </p>
+
             <img src={logo9} alt="Logo9" className=" w-full logo mt-4" />
           </div>
-          <div className="w-[296px] h-[177px] ml-14">
-            <p className="font-text w-[204px] h-[32px]">Subscribe Us</p>
+          <div className=" flex-col ml-14">
+            <p className="text-[color:var(--White,#FFF)] text-[20px] not-italic font-bold leading-[130%] uppercase font-SpaceGrotesk  ">
+              Subscribe Us
+            </p>
+
             <button
-              className="w-[296px] h-[57px] px-14 py-4 border bg-white text-start mt-4 text-gray-500 rounded-md"
+              className="  px-14 py-4 border bg-white text-start mt-4 text-gray-500 rounded-md"
               style={{
                 borderRadius: "8px",
                 fontFamily: "Space Grotesk",
@@ -41,8 +57,9 @@ const Footer = () => {
             >
               Enter Your Email
             </button>
+            <br/>
             <button
-              className="w-[296px] h-[57px] px-14 py-4 border bg-whitev text-white text-start mt-4  rounded-md"
+              className="  px-14 py-4 border bg-whitev text-white text-start mt-4  rounded-md"
               style={{
                 borderRadius: "8px",
                 background: "#1195D6",
@@ -53,10 +70,11 @@ const Footer = () => {
             </button>
           </div>
         </div>
-
-        <div className="dotted-line border justify-items-center bg-gray-300 border-dashed mt-4 mb-8"></div>
-
-        <p className="text-white mb-20" style={{ fontFamily: "Space Grotesk" }}>
+        <div className="w-full flex justify-center">
+          <div className="w-4/5  border border-dashed "></div>
+        </div>
+        {/* <hr className="text-[red] bg-red-400 w-full"/> */}
+        <p className="text-white py-14" style={{ fontFamily: "Space Grotesk" }}>
           Copyright © 2023 massshipping
         </p>
       </div>

@@ -12,17 +12,17 @@ const Header = () => {
           <ul className="flex space-x-4">
             <li>
               <a href="#" className="text-white hover:text-gray-300">
-                Home
+                HOME
               </a>
             </li>
             <li>
               <a href="#" className="text-white hover:text-gray-300">
-                About Us
+                ABOUT US
               </a>
             </li>
             <li>
               <a href="#" className="text-white hover:text-gray-300">
-                Services
+                SERVICES
               </a>
             </li>
             <li>
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
             <li>
               <a href="#" className="text-white hover:text-gray-300">
-                Contact Us
+                CONTACT US
               </a>
             </li>
           </ul>

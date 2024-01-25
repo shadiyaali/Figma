@@ -1,65 +1,22 @@
-.typography {
-  color: var(--Blue-1, #0e33cb);
-  text-align: center;
-
-  /* SUB HEADING 2 */
-  font-family: "Space Grotesk";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 14px */
-  letter-spacing: 1.33px;
-  text-transform: uppercase;
-}
-
-.heading {
-  color: var(--Dark-Blue-1, #121d50);
-  text-align: center;
-
-  /* Heading 2 */
-  font-family: "Space Grotesk";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; 
-  text-transform: uppercase;
-}
-
 .outer {
-  background: var(--Grey-1, #edf0f3);
-  display: flex;
-  padding: 110px 149px 110px 150px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* gap: 64px; */
-}
-
-.card1 {
-  display: flex;
-  padding: 48px 40px 70px 40px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  border-radius: 12px;
-  text-align: start;
-  /* background: var(--Dark-Blue-1, #121d50); */
-}
-.text-card {
-  width: 287px;
-  /* color: var(--White, #fff); */
-
-  /* Heading 5 */
-  font-family: "Space Grotesk";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 32.5px */
-  text-transform: uppercase;
-}
-.sub-heading {
+    background: var(--Grey-1, #edf0f3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 6rem;  
+  }
   
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;  
-}
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .outer {
+      padding: 6rem 4rem; 
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .outer {
+      padding: 4rem 2rem;  
+    }
+  }
+  

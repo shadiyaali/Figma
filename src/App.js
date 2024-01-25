@@ -10,10 +10,13 @@ import Card2 from './components/Card2/Card2';
 import Card3 from './components/Card3/Card3';
 import Form from './components/Forms/Forms';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Header />
       <HomePage />
       <About/>
