@@ -98,7 +98,7 @@ const Form = () => {
             </button>
           </div>
           <div className=" mt-6 ">
-            <p className="  text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase  ">
+            <p className="  text-[14px]  not-italic font-medium leading-[100%] uppercase  ">
               Email Address
             </p>
 
@@ -109,7 +109,7 @@ const Form = () => {
                 background: "var(--White, #fff)",
               }}
             >
-              Ex: Jhon Dee
+              Ex: jhondee@gmail.com
             </button>
           </div>
           <div className=" mt-6">

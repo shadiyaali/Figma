@@ -10,17 +10,17 @@ const About = () => {
           <p className="text-subheading text-blue-500 uppercase mb-4 md:mb-16">
             About Us
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl text-about-heading text-black uppercase text-center md:text-left">
-        Empowering Your Business with Tailored Logistics Solutions
+          <p className="text-4xl mb-2 font-bold leading-normal text-about-heading text-black uppercase text-center md:text-left">
+        Empowering Your<br/> Business with Tailored <br/>Logistics Solutions
       </p>
           <p className="text-lg mt-4 md:mt-8 text-gray-600">
             We believe in providing our clients with personalized and efficient
             logistics solutions that meet their unique needs. With years of
-            experience and a team of experts, we are dedicated to empowering
-            your business with seamless shipping experiences.
+            experience and a team of experts, we are dedicated to empowering your<br/>
+             business with seamless shipping experiences.
           </p>
           <button
-            className="px-6 md:px-14 py-4 border mt-4 text-white rounded-md uppercase"
+            className="px-6 mt-8 md:px-14 py-4 border  text-white rounded-md uppercase"
             style={{
               borderRadius: "8px",
               background: "#1195D6",
@@ -32,7 +32,7 @@ const About = () => {
         <img
           src={logo1}
           alt="Logo1"
-          className="w-full md:w-100 h-100 logo mt-8 md:mt-0"
+          className="w-full h-full  logo mt-8 md:mt-0"
           style={{
             borderRadius: "6px",
             background: "url(path-to-image), lightgray 50% / cover no-repeat",

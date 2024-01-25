@@ -20,16 +20,16 @@ const Works = () => {
             }}
           />
 </div>
-          <div className="h-4/5 w-4/5">
-            <p className="text-[color:var(--Blue-1,#0e33cb)] text-[12px] text-start not-italic font-bold leading-[100%] tracking-[1.33px] uppercase   " style={{fontFamily:'Space Grotesk'}}>
+          <div className="h-4/5 w-4/5 ">
+            <p className="text-[color:var(--Blue-1,#0e33cb)] mb-14 text-[14px] text-start not-italic font-bold leading-[100%] tracking-[1.33px] uppercase   " style={{fontFamily:'Space Grotesk'}}>
               How It Works
             </p>
 
-            <p className="text-[color:var(--Dark-Blue-1,#121d50)] md:text-4xl not-italic font-bold leading-[140%] uppercase text-justify md:text-left font-SpaceGrotesk w-full  md:h-[auto] mt-4" style={{lineHeight:"150%"}}>
+            <p className="text-[color:var(--Dark-Blue-1,#121d50)] md:text-4xl mb-14 not-italic font-bold leading-[140%] uppercase text-justify md:text-left font-SpaceGrotesk w-full   mt-2" style={{lineHeight:"150%"}}>
               Simplify Your Shipping Experience with Our Easy Step Process
             </p>
 
-            <p className="text-[color:var(--Grey-2,#5c6c7b)] md:text-base font-normal leading-[140%] text-left text-gray-600 w-full   mt-4 md:mt-8">
+            <p className="text-[color:var(--Grey-2,#5c6c7b)] mb-20 md:text-base font-normal leading-[140%] text-left text-gray-600 w-full   mt-4 md:mt-8">
               We believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs. With
               years of experience and a team of experts, we are dedicated to

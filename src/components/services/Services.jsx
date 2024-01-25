@@ -54,7 +54,7 @@ const Service = () => {
           </div>
           <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] w-  justify-start bg-white ">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase text-white font-SpaceGrotesk justify-start">
+            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase  font-SpaceGrotesk justify-start">
               Truck Shipping
             </p>
 
@@ -67,7 +67,7 @@ const Service = () => {
         <div className="flex gap-[20px]">
           <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start  bg-white">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase text-white font-SpaceGrotesk justify-start">
+            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase  font-SpaceGrotesk justify-start">
               Custom Clearance
             </p>
 
@@ -78,7 +78,7 @@ const Service = () => {
           </div>
           <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] mt-6   justify-start bg-white ">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase text-white font-SpaceGrotesk justify-start">
+            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase  font-SpaceGrotesk justify-start">
               Freight Forwarding
             </p>
 
@@ -90,7 +90,7 @@ const Service = () => {
 
           <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start bg-white ">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase text-white font-SpaceGrotesk justify-start">
+            <p className="w-287 text-[25px] text-[color:var(--Dark-Blue-1,#121d50)] not-italic font-bold leading-130 uppercase  font-SpaceGrotesk justify-start">
               Insurance
             </p>
 
