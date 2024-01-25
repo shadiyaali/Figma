@@ -1,5 +1,4 @@
 import React from "react";
-import "./Forms.css";
 import logo0 from "../../../src/assets/images/Icon.png";
 
 const Form = () => {
@@ -45,7 +44,7 @@ const Form = () => {
               <img src={logo0} alt="Logo0" className=" logo" />
               <div className=" text-start mt-6 ml-8 ">
                 <p className="text-md"> Email </p>
-                <p className="  text-20 not-italic  font-bold leading-[130%] uppercase  ">
+                <p className="  text-20 not-Fitalic  font-bold leading-[130%] uppercase  ">
                   massshipping@mail.com
                 </p>
               </div>
@@ -95,7 +94,7 @@ const Form = () => {
                 background: "var(--White, #fff)",
               }}
             >
-             Ex: Jhon Dee
+              Ex: Jhon Dee
             </button>
           </div>
           <div className=" mt-6 ">

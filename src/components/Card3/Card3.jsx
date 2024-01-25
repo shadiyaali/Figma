@@ -10,8 +10,8 @@ const Card3 = () => {
     <div className=" outer-layer md:p-[8rem] ">
       <div className=" w-full  gap-[5rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
         {/* Left Section */}
-        <div className="flex-[0.5]    p-1 flex flex-col justify-between items-center">
-          <div className="box-last w-full flex flex-col  justify-start">
+        <div className="flex-[0.5]     flex flex-col justify-between items-center">
+          <div className="box-last w-full flex flex-col mt-14 justify-start">
             <p
               className="uppercase text-start text-[color:var(--Blue-1,#0e33cb)] m-0 "
               style={{ fontFamily: "SpaceGrotesk" }}
@@ -35,7 +35,7 @@ const Card3 = () => {
           />
           <div className="  flex-[0.5]  flex flex-col ">
             <div
-              className="px-8 w-full flex flex-col bg-white justify-between gap-4  aspect-auto  rounded"
+              className="px-8 w-full flex mb-4 flex-col bg-white justify-between gap-4  aspect-auto  rounded"
               style={{
                 background: "var(--Dark-Blue-1, #121D50)",
               }}

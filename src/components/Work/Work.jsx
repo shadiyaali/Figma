@@ -1,5 +1,4 @@
 import React from "react";
-import "./Work.css";
 import logo4 from "../../../src/assets/images/bg-1.png";
 import logo5 from "../../../src/assets/images/Icon.png";
 

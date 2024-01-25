@@ -43,32 +43,34 @@ const Footer = () => {
 
             <img src={logo9} alt="Logo9" className=" w-full logo mt-4" />
           </div>
-          <div className=" flex-col ml-14">
-            <p className="text-[color:var(--White,#FFF)] text-[20px] not-italic font-bold leading-[130%] uppercase font-SpaceGrotesk  ">
-              Subscribe Us
-            </p>
+          <div className="flex-col ml-4 md:ml-14">
+  <p className="text-[color:var(--White,#FFF)]  text-[20px] not-italic font-bold leading-[130%] uppercase font-SpaceGrotesk mt-4 md:mt-0">
+    Subscribe Us
+  </p>
 
-            <button
-              className="  px-14 py-4 border bg-white text-start mt-4 text-gray-500 rounded-md"
-              style={{
-                borderRadius: "8px",
-                fontFamily: "Space Grotesk",
-              }}
-            >
-              Enter Your Email
-            </button>
-            <br/>
-            <button
-              className="  px-14 py-4 border bg-whitev text-white text-start mt-4  rounded-md"
-              style={{
-                borderRadius: "8px",
-                background: "#1195D6",
-                fontFamily: "Space Grotesk",
-              }}
-            >
-              Subscribe Now
-            </button>
-          </div>
+  <button
+    className="px-4 md:px-14 py-3 md:py-4 border bg-white text-start mt-4 text-gray-500 rounded-md"
+    style={{
+      borderRadius: "8px",
+      fontFamily: "Space Grotesk",
+    }}
+  >
+    Enter Your Email
+  </button>
+  
+  <br />
+
+  <button
+    className="px-4 md:px-14 py-3 md:py-4 border bg-[#1195D6] text-white text-start mt-4 rounded-md"
+    style={{
+      borderRadius: "8px",
+      fontFamily: "Space Grotesk",
+    }}
+  >
+    Subscribe Now
+  </button>
+</div>
+
         </div>
         <div className="w-full flex justify-center">
           <div className="w-4/5  border border-dashed "></div>

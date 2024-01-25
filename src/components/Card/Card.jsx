@@ -1,5 +1,4 @@
 import React from "react";
-import  "./Card.css";
 import logo3 from "../../../src/assets/images/Logo 1.png";
 
 

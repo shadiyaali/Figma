@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Card2.css";
 import logo7 from "../../../src/assets/images/Icon2.png";
 
 const Card2 = () => {

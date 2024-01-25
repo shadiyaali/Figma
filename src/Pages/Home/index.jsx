@@ -1,26 +1,35 @@
 import React from "react";
-import logo from "../../../src/assets/images/Replace This.png"; // Replace with the actual path to your logo
-import "./index.css";
+import logo from "../../../src/assets/images/Replace This.png";
 
 const HomePage = () => {
   return (
     <>
       <div className="h-full mx-auto p-10 relative bg-home-background bg-cover">
         <div className="top-110 left-150 gap-20 p-6 text-left space-grotesk-font">
-          <div className="w-full lg:w-11/12">
-            <p className="text-subheading text-white mb-3">
+          <div className="w-full mt-12 ml-8 lg:w-11/12">
+            <p
+              className="text-18 font-medium leading-18 tracking-[0.095em] text-left uppercase  text-white mb-3"
+              style={{ fontFamily: "SpaceGrotesk" }}
+            >
               We are the Best Logistic Company
             </p>
-            <p className="text-heading uppercase text-white">
-              Streamline Your Shipping with Our Cargo Services
+
+            <p className="text-[color:var(--White,#FFF)] mt-4 text-[50px] not-italic font-bold leading-[130%]  font-SpaceGrotesk uppercase text-white">
+              Streamline Your Shipping with <br />
+              Our Cargo Services
             </p>
-            <p className="text-body mt-10 text-white">
-              Simplify your shipping process and make it more efficient with our
-              cargo services. From start to finish, we'll handle everything to
-              ensure your cargo arrives safely.
+
+            <p
+              className="text-18 font-medium mt-4 leading-18 tracking-[0.095em] text-left   text-white mb-3"
+              style={{ fontFamily: "SpaceGrotesk" }}
+            >
+              Simplify your shipping process and make it more efficient with our{" "}
+              <br /> cargo services. From start to finish, we'll handle
+              everything to ensure
+              <br /> your cargo arrives safely.
             </p>
           </div>
-          <div className="mt-8 flex flex-col lg:flex-row">
+          <div className="mt-8 ml-8 flex flex-col lg:flex-row">
             <div className="lg:flex flex-1 gap-4 items-center">
               <img
                 src={logo}
@@ -32,17 +41,17 @@ const HomePage = () => {
                     "url(path-to-image), lightgray 50% / cover no-repeat",
                 }}
               />
-               
+
               <div className="ml-0 mt-4  lg:mt-0">
                 <p className="text-4xl font-bold mb-2 text-white">26 K</p>
-                <p className="text-body2 text-white">Satisfied Clients</p>
+                <p className=" text-white">Satisfied Clients</p>
               </div>
               <div className="flex h-[7rem] items-center ">
                 <div className="border border-white h-3/5 border-dashed"></div>
               </div>
               <div className="ml-0 mt-4  lg:mt-0">
                 <p className="text-4xl font-bold mb-2 text-white">12 +</p>
-                <p className="text-body2 text-white">Years of Experience</p>
+                <p className=" text-white">Years of Experience</p>
               </div>
             </div>
             <div className="lg:ml-10">
