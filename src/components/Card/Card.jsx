@@ -6,12 +6,12 @@ const Card = () => {
   return (
 
 
-<div className="flex h-[246px] justify-center items-center  px-[70px] "
+<div className="flex h-[246px] justify-center items-center shrink-0 px-[190px] "
 style={{
      
     background: "#1195D6",
   }}>
- <div className="flex  gap-4 md:gap-8 w-full md:w-[100%] h-auto md:h-[46px] justify-center md:justify-start px-4 md:px-8 py-4 md:py-0" style={{ background: "#1195D6" }}>
+ <div className="flex  w-full   justify-center " style={{ background: "#1195D6" }}>
       {[...Array(5)].map((_, index) => (
         <img
           key={index}

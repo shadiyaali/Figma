@@ -5,8 +5,9 @@ import logo9 from "../../../src/assets/images/man.png";
 const Footer = () => {
   return (
     <div
-      className="pl-4 p-12 md:pl-20 mt-20 pb-0"
-      style={{ background: "var(--Dark-Blue-2, #090E23)" }}
+      className=" p-3 md:pl-16 mt-18 pb-0"
+      
+           style={{ background: "var(--Dark-Blue-2, #090E23)" }}
     >
       <div className="flex flex-col mr-36 md:flex-row md:items-start md:justify-between">
         <div className="flex flex-col mt-16 md:items-start">

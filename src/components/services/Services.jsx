@@ -1,11 +1,14 @@
 import React from "react";
-import "./Service.css";
+ 
 import logo2 from "../../../src/assets/images/Icon.png";
 
 const Service = () => {
   return (
     <>
-      <div className="outer mt-12">
+    <div className=" md:p-[4rem]"style={{background: "var(--Grey-1, #edf0f3)" }}>
+      <div className="flex flex-col justify-center items-center px-24 py-20"
+  >
+    
         <p
           className="text-[color:var(--Blue-1,#0e33cb)] text-center text-[16px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase
    
@@ -100,6 +103,7 @@ const Service = () => {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
