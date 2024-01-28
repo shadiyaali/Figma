@@ -5,7 +5,7 @@ import logo5 from "../../../src/assets/images/package.png";
 const Works = () => {
   return (
     <>
-      <div className="   md:p-[5rem] ">
+      <div className="  pb-16 mt-6  md:p-[5rem]  ">
         <div className=" w-full  gap-[1rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
           <div className="w-full p-3">
             <img
@@ -14,14 +14,14 @@ const Works = () => {
               className="w-full  logo"
               style={{
                 borderRadius: "12px",
-                maxWidth: "85%",
+                maxWidth: "90%",
                 height: "auto",
                 background:
                   "url(path-to-image), lightgray 50% / cover no-repeat",
               }}
             />
           </div>
-          <div className="pt-4">
+          <div className="pt-4 ">
             <p
               className="text-[color:var(--Blue-1,#0e33cb)]  text-[14px] text-start not-italic font-medium leading-[100%] tracking-[1.33px] uppercase   "
               style={{ fontFamily: "Space Grotesk" }}
@@ -30,7 +30,7 @@ const Works = () => {
             </p>
 
             <p
-              className="text-[color:var(--Dark-Blue-1,#121d50)] mt-6 text-start text-[47px] not-italic font-bold leading-[130%] uppercase "
+              className="text-[color:var(--Dark-Blue-1,#121d50)] mt-6 text-start text-[48px] not-italic font-bold leading-[130%] uppercase "
               style={{ fontFamily: "Space Grotesk" }}
             >
               Simplify Your Shipping
