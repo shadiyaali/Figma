@@ -1,32 +1,41 @@
 import React from "react";
 import logo1 from "../../assets/images/Image.png";
-import "./About.css";
+ 
 
 const About = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between mt-12 mx-4 md:ml-14 gap-4 md:gap-16 p-4 md:p-12">
-        <div className="w-full md:w-11/12 max-w-[580px] text-center md:text-left">
-          <p className="text-subheading text-blue-500 uppercase mb-4 md:mb-16">
-            About Us
-          </p>
-          <p className="text-4xl mb-2 font-bold leading-normal text-about-heading text-black uppercase text-center md:text-left">
-        Empowering Your<br/> Business with Tailored <br/>Logistics Solutions
+    <div className="md:p-[6rem]">
+  <div className=" w-full  gap-[5rem] p-[5rem]  grid grid-cols-2 place-content-center  md:px-19">
+    <div className=" text-center md:text-left">
+      <p className="text-[color:var(--Blue-1,#0E33CB)]  pt-6 text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase" style={{ fontFamily: "Space Grotesk" }}>
+        About Us
       </p>
-          <p className="text-lg mt-4 md:mt-8 text-gray-600">
-            We believe in providing our clients with personalized and efficient
-            logistics solutions that meet their unique needs. With years of
-            experience and a team of experts, we are dedicated to empowering your<br/>
+      <p className=" text-[color:var(--Dark-Blue-1,#121D50)] mt-8 text-[45px] not-italic font-bold leading-[130%] uppercase" style={{ fontFamily: "Space Grotesk" }}>
+        Empowering Your<br /> Business with Tailored <br/> Logistics Solutions
+      </p>
+      
+
+          <p className="text-[18px]font-normal  leading-[140%] md:mt-8 text-[color:var(--Grey-2,#5C6C7B)]"style={{ fontFamily: "Roboto" }}>
+            We believe in providing our clients with personalized and efficient<br/>
+            logistics solutions that meet their unique needs. With years of<br/>
+            experience and a team of experts, we are dedicated to empowering your <br/>
              business with seamless shipping experiences.
           </p>
           <button
-            className="px-6 mt-8 md:px-14 py-4 border  text-white rounded-md uppercase"
+            className="flex mt-6 items-start gap-[10px] px-[54px] py-[18px] rounded-[8px];
+            "
             style={{
               borderRadius: "8px",
               background: "#1195D6",
             }}
           >
-            Learn More
+            <p className="text-[color:var(--White,#FFF)] text-[18px] not-italic font-normal leading-[100%] tracking-[1.71px] uppercase
+ 
+  "style={{
+    
+    background: "#1195D6",
+  }}>Learn More</p>
           </button>
         </div>
         <img
@@ -67,6 +76,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      </div>
+    
     </>
   );
 };

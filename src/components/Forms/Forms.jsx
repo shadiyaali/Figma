@@ -18,11 +18,11 @@ const Form = () => {
 
             <p className="text-[48px] font-bold leading-[130%] uppercase text-start" style={{ fontFamily: "Space Grotesk", color: "var(--Dark-Blue-1, #121D50)" }}>
               Take the First Step <br />
-              to Streamlined Shipping<br />
+              to Streamlined<br/> Shipping
             </p>
 
             <div className="flex items-start justify-start">
-              <img src={logo0} alt="Logo0" className="mt-4 items-start  rounded-[8px] logo" />
+              <img src={logo0} alt="Logo0" className="mt-4  items-start  rounded-[8px] logo" />
               <div className="text-start ml-8 mt-6 ">
                 <p className="text-md  text-[18px]" style={{ fontFamily: "Roboto" }}>
                   Call Us
@@ -32,7 +32,7 @@ const Form = () => {
                 </p>
               </div>
             </div>
-            <div className="border w-4/5 mt-4 text-start bg-gray-300 border-dashed justify-start"></div>
+            <div className="border w-[70%] mt-4 text-start bg-gray-300 border-dashed justify-start"></div>
 
             <div className="flex items-start justify-start">
               <img src={logo0} alt="Logo0" className="mt-4 items-start  rounded-[8px] logo" />
@@ -45,7 +45,7 @@ const Form = () => {
                 </p>
               </div>
             </div>
-            <div className="border w-4/5 mt-4 text-start bg-gray-300 border-dashed justify-start"></div>
+            <div className="border w-[70%] mt-4 text-start bg-gray-300 border-dashed justify-start"></div>
 
             <div className="flex items-start justify-start">
               <img src={logo0} alt="Logo0" className="mt-4 items-start  rounded-[8px] logo" />
@@ -65,7 +65,7 @@ const Form = () => {
 
       {/* Right Section */}
       <div className="right-section">
-        <div className="px-16 py-8 pt-14" style={{ borderRadius: "12px", background: "var(--Grey-1, #EDF0F3)" }}>
+        <div className="px-16 py-8 pb-16 pt-14" style={{ borderRadius: "12px", background: "var(--Grey-1, #EDF0F3)" }}>
           <div className="flex-col text-start pt-8  ">
             <p className="text-[25px] not-italic mb-4 font-bold leading-[130%] uppercase" style={{ fontFamily: "SpaceGrotesk", color: "var(--Dark-Blue-1,#121d50)" }}>
               Request a Quote Today
@@ -77,7 +77,7 @@ const Form = () => {
               </p>
 
               <button
-                className="flex  text-start w-full  py-[15px] rounded-[8px] px-14 border mt-2 text-gray-400"
+                className="flex  text-start w-full  py-[15px] rounded-[8px] px-4 border mt-2 text-gray-400"
                 style={{
                   borderRadius: "8px",
                   background: "var(--White, #fff)",
@@ -94,7 +94,7 @@ const Form = () => {
               </p>
 
               <button
-                className="flex items-center w-full  py-[15px] rounded-[8px] px-14 border mt-2 text-gray-400"
+                className="flex items-center w-full  py-[15px] rounded-[8px] px-4 border mt-2 text-gray-400"
                 style={{
                   borderRadius: "8px",
                   background: "var(--White, #fff)",
@@ -111,7 +111,7 @@ const Form = () => {
               </p>
 
               <button
-                className="flex text-start w-full  py-[15px] rounded-[8px] px-14 border mt-2 text-gray-400"
+                className="flex text-start w-full  py-[15px] rounded-[8px] px-4 border mt-2 text-gray-400"
                 style={{
                   borderRadius: "8px",
                   background: "var(--White, #fff)",
@@ -128,7 +128,7 @@ const Form = () => {
               </p>
 
               <button
-                className="flex items-center w-full  py-[15px] rounded-[8px] px-14 border mt-2 text-gray-400"
+                className="flex items-center w-full  py-[15px] rounded-[8px] px-4 border mt-2 text-gray-400"
                 style={{
                   borderRadius: "8px",
                   background: "var(--White, #fff)",
@@ -144,7 +144,8 @@ const Form = () => {
               style={{
                 borderRadius: "8px",
                 background: "#1195D6",
-                fontFamily: "Space Grotesk",
+                
+                
               }}
             >
               submit

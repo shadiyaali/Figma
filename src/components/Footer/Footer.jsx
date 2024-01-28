@@ -5,15 +5,15 @@ import logo9 from "../../../src/assets/images/man.png";
 const Footer = () => {
   return (
     <div
-      className=" p-3 md:pl-16 mt-18 pb-0"
+      className=" p-3 md:px-36  mt-18 pb-0"
       
            style={{ background: "var(--Dark-Blue-2, #090E23)" }}
     >
-      <div className="flex flex-col mr-36 md:flex-row md:items-start md:justify-between">
+      <div className="flex w-full flex-col pt-12  lg:flex-row lg:items-start lg:justify-between">
         <div className="flex flex-col mt-16 md:items-start">
-          <img src={logo} alt="Logo" className="mt-4 md:mt-0 w-3/5 md:ml-24" />
+          <img src={logo} alt="Logo" className="mt-4 md:mt-0 w-3/5 " />
           <p
-            className="text-[18px] text-start not-italic font-normal leading-[140%] mt-6 mb-4 md:mb-16 ml-4 md:ml-24"
+            className="text-[18px] text-start not-italic font-normal leading-[140%] mt-6 mb-4 md:mb-16  "
             style={{ fontFamily: "Roboto", color: "var(--White,#FFF)" }}
           >
             We believe in providing our clients with <br /> personalized and
@@ -98,8 +98,8 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="w-full flex justify-center ">
-        <div className="w-4/5  border border-dashed border-gray-400"></div>
+      <div className="w-full ">
+        <div className="w-full  border border-dashed border-gray-400"></div>
       </div>
       <p
         className="text-white py-4 md:py-14"

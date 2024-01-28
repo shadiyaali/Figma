@@ -3,7 +3,7 @@ import logo7 from "../../../src/assets/images/Icon2.png";
 
 const Card2 = () => {
   return (
-    <div className="w-full aspect-[2] bg-cover-background bg-center flex flex-col items-center pt-28">
+    <div className=" aspect-[2] bg-cover-background bg-center flex flex-col items-center pt-1">
       <p className="text-white mt-4 text-center text-[64px] not-italic font-bold  leading-[130%] uppercase  "style={{fontFamily: "Space Grotesk"}}>
         See it in Action
       </p>

@@ -7,7 +7,7 @@ const Card3 = () => {
   const numberOfImages = 5;
 
   return (
-    <div className=" outer-layer  md:p-[4rem] ">
+    <div className=" outer-layer  md:p-[5rem] ">
       <div className=" w-full  gap-[5rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
         {/* Left Section */}
         <div className="flex-[0.5]    flex flex-col justify-between items-center">
@@ -28,16 +28,16 @@ const Card3 = () => {
           <img
             src={logo8}
             alt="Logo8"
-            className="w-full justify-between mt-4 aspect-auto rounded-xl "
+            className="w-full justify-between mt-8 aspect-auto rounded-xl "
             style={{
-              borderRadius: "8px",
+              borderRadius: "12px",
               background: "url(path-to-image), lightgray 50% / cover no-repeat",
             }}
           />
          
           {/* <div className=" mt-6  flex flex-col "> */}
             <div
-              className="flex w-full flex-col mb-4 justify-between   aspect-auto  rounded"
+              className="flex w-full flex-col mt-8 justify-between   aspect-auto  rounded"
               style={{
                 background: "var(--Dark-Blue-2, #090E23)",
                 padding: "34px 46px 34px 38px",
@@ -101,7 +101,7 @@ const Card3 = () => {
 
               <div className="">
                 <p className="para text-white text-[16px] text-start mt-6 "style={{fontFamily: "Roboto",color: "var(--Dark-Blue-1, #121D50)"}}>
-                I was very impressed with FastGo handling of my recent shipment. They went above and beyond to ensure my cargo arrived safely and on time. I will definitely be using their services again in the future.
+                I was very impressed with FastGo handling of my recent<br/> shipment. They went above and beyond to ensure my cargo <br/>arrived safely and on time. I will definitely be using their<br/> services again in the future.
                 </p>
                 <p className="text-start font-medium leading-[100%] tracking-[1.71px] text-white mt-6 uppercase text-[18px] text-base"style={{fontFamily: "Space Grotesk",letterSpacing: "1.71px",color: "var(--Dark-Blue-1, #121D50)"}}>
                 Jane Smith, Freelance Consultant
@@ -131,7 +131,7 @@ const Card3 = () => {
 
               <div className="">
                 <p className="para text-white text-[16px] text-start mt-6 "style={{fontFamily: "Roboto",color: "var(--Dark-Blue-1, #121D50)"}}>
-                I was very impressed with FastGo handling of my recent shipment. They went above and beyond to ensure my cargo arrived safely and on time. I will definitely be using their services again in the future.
+                I was very impressed with FastGo handling of my recent<br/> shipment. They went above and beyond to ensure my cargo<br/> arrived safely and on time. I will definitely be using their <br/>services again in the future.
                 </p>
                 <p className="text-start font-medium   text-white mt-6 uppercase text-[18px] text-base"style={{fontFamily: "Space Grotesk",letterSpacing: "1.71px",color: "var(--Dark-Blue-1, #121D50)"}}>
                 Michael Johnson, CEO
@@ -161,7 +161,7 @@ const Card3 = () => {
 
               <div className="">
                 <p className="para text-white text-[16px] text-start mt-6 "style={{fontFamily: "Roboto",color: "var(--Dark-Blue-1, #121D50)"}}>
-                I was very impressed with FastGo handling of my recent shipment. They went above and beyond to ensure my cargo arrived safely and on time. I will definitely be using their services again in the future.
+                I was very impressed with FastGo handling of my recent<br/> shipment. They went above and beyond to ensure my cargo <br/>arrived safely and on time. I will definitely be using their<br/> services again in the future.
                 </p>
                 <p className="text-start font-medium text-white mt-6 uppercase text-[18px] text-base"style={{fontFamily: "Space Grotesk",letterSpacing: "1.71px",color: "var(--Dark-Blue-1, #121D50)"}}>
                 Sarah Lee, Online Retailer
