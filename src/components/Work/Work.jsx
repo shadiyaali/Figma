@@ -5,9 +5,9 @@ import logo5 from "../../../src/assets/images/package.png";
 const Works = () => {
   return (
     <>
-      <div className="  pb-16 mt-6  md:p-[5rem]  ">
-        <div className=" w-full  gap-[1rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
-          <div className="w-full p-3">
+      <div className="   mt-6  md:p-[7rem]  ">
+        <div className=" w-full   p-1  grid grid-cols-2 place-content-center  md:px-20">
+          <div className="w-full py-3">
             <img
               src={logo4}
               alt="Logo1"
@@ -39,7 +39,7 @@ const Works = () => {
             </p>
 
             <p
-              className="text-[color:var(--Grey-2,#5c6c7b)] text-start text-[17px] mt-8 font-normal leading-[140%] "
+              className="text-[color:var(--Grey-2,#5c6c7b)] text-justify text-[17px] mt-8 font-normal leading-[140%] "
               style={{ fontFamily: "Roboto" }}
             >
               We believe in providing our clients with personalized and
@@ -51,10 +51,10 @@ const Works = () => {
             </p>
           </div>
         </div>
-        <div className="w-full px-20 pt-20 ">
+        <div className="w-full px-28 pt-20 ">
         <div className="w-full  border border-dashed border-gray-600"></div>
       </div>
-        <div className="flex p-[10rem] pt-0 flex-col md:flex-row gap-8 md:gap-20 justify-center mt-8 md:mt-20">
+        <div className="flex px-[10rem] pt-0 flex-col md:flex-row gap-8 md:gap-20 justify-center mt-8 md:mt-20">
           <div className="w-full  h-auto  flex flex-col items-center mx-auto">
             <div
               className="inline-flex justify-center items-start border-[color:var(--Grey-1,#EDF0F3)] px-[16px] py-[8px] rounded-[90px] border-2 border-solid

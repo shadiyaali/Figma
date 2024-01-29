@@ -3,7 +3,7 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 9rem;
+    /* padding: 9rem; */
   }
   
   .left-section {

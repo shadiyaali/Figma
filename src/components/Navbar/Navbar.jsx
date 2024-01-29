@@ -3,42 +3,29 @@ import logo from "../../../src/assets/images/Group.png";
 
 const Navbar = () => {
   return (
-    <header className="p-3">
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+    <header className="px-[7rem] py-4">
+      <div className=" mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div
           className="flex lg:border lg:border-transparent lg:border-r-white lg:pe-6 lg:border-dashed nav"
-          style={{
-            color: "var(--Dark-Blue-2, #090E23)",
-            fontSize: "16px",
-            fontStyle: "normal",
-            fontWeight: "bold",
-            lineHeight: "100%",
-            letterSpacing: "1.04px",
-            fontFamily: "Space Grotesk",
-          }}
+          
         >
           <p
-            className=""
-            style={{
-              borderRight: "2px dotted gray",
-              paddingRight: "5px",
-              marginRight: "5px",
-            }}
+            className="text-[color:var(--Dark-Blue-2,#090E23)] text-[16px] not-italic font-medium leading-[100%] tracking-[1.04px]"style={{ fontFamily: "Space Grotesk",borderRight: "2px dotted gray",}}
+           
           >
             massshipping@mail.com
           </p>
-          <p className="">+1 (333) 000-0000</p>
+          <p className="text-[color:var(--Dark-Blue-2,#090E23)] text-[16px] not-italic font-medium leading-[100%] tracking-[1.04px]"style={{ fontFamily: "Space Grotesk"}}>+1 (333) 000-0000</p>
         </div>
         <nav className="mt-2 lg:mt-0">
           <ul className="flex space-x-4">
             <button
-              className="px-14 py-4 border mt-2 lg:mt-0 text-white rounded-md uppercase"
-              style={{
-                borderRadius: "8px",
-                background: "#1195D6",
-              }}
+              className="inline-flex items-start gap-[10px] px-[54px] py-[18px] rounded-[8px]"style={{background: "#1195d6"}}
+              
             >
-              Get Quote
+             <p className="text-[color:var(--White,#FFF)] text-[18px] not-italic font-medium leading-[100%] tracking-[1.71px] uppercase
+ 
+  "style={{fontFamily: "Space Grotesk"}}>Get Quote</p> 
             </button>
           </ul>
         </nav>

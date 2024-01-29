@@ -7,7 +7,7 @@ import "./Form.css"; // Import the CSS file for styling
 
 const Form = () => {
   return (
-    <div className="form-container">
+    <div className="form-container px-48 py-[9rem] ">
       {/* Left Section */}
       <div className="left-section">
         <div className="flex-[0.5] flex flex-col justify-between items-start">

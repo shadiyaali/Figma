@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="md:p-[7rem]">
-        <div className=" w-full  gap-[5rem] pl-[4rem] pr-[2rem] grid grid-cols-2 place-content-center  md:px-19">
+        <div className=" w-full  gap-[1rem]  px-[7rem] pl-[4rem] pr-[4rem] grid grid-cols-2 place-content-center  md:px-19">
           <div className=" text-center md:text-left">
             <p
               className="text-[color:var(--Blue-1,#0E33CB)]  pt-6 text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase"
@@ -14,7 +14,7 @@ const About = () => {
               About Us
             </p>
             <p
-              className=" text-[color:var(--Dark-Blue-1,#121D50)] mt-8 text-[48px] not-italic font-bold leading-[130%] uppercase"
+              className=" text-[color:var(--Dark-Blue-1,#121D50)] mt-6 text-[48px] not-italic font-bold leading-[130%] uppercase"
               style={{ fontFamily: "Space Grotesk" }}
             >
               Empowering Your
@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         <div className="w-full flex justify-center items-center">
-          <div className="flex flex-col md:flex-row px-[5rem] pl-[3rem] pt-[8rem]  md:gap-8  ">
+          <div className="flex flex-col md:flex-row px-[7rem] pl-[4rem] pr[4rem] pt-[8rem]  md:gap-8  ">
             <div
               className="flex justify-center items-center   rounded-[12px]
  "
@@ -76,7 +76,7 @@ const About = () => {
               <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase  text-center flex justify-center items-center text-[48px] font-bold text-white border border-transparent border-r-white pe-4 border-dashed  "style={{ fontFamily: 'Space Grotesk' ,padding: "48px 39px 48px 40px"}}>
                 01
               </p>
-              <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
+              <p className="text-[color:var(--White,#FFF)] p-8 not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
                 Expertise and Experience
               </p>
             </div>
@@ -85,10 +85,10 @@ const About = () => {
  "
               style={{ background: "var(--Dark-Blue-2, #090e23)" }}
             >
-              <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase  text-center flex justify-center items-center text-[48px] font-bold text-white border border-transparent border-r-white pe-4 border-dashed  "style={{ fontFamily: 'Space Grotesk' ,padding: "48px 39px 48px 40px"}}>
+              <p className="text-[color:var(--White,#FFF)]  not-italic leading-[130%] uppercase  text-center flex justify-center items-center text-[48px] font-bold text-white border border-transparent border-r-white pe-4 border-dashed  "style={{ fontFamily: 'Space Grotesk' ,padding: "48px 39px 48px 40px"}}>
                 2
               </p>
-              <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
+              <p className="text-[color:var(--White,#FFF)] p-8 not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
               Committed to Quality
               </p>
             </div>
@@ -100,7 +100,7 @@ const About = () => {
               <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase  text-center flex justify-center items-center text-[48px] font-bold text-white border border-transparent border-r-white pe-4 border-dashed  "style={{ fontFamily: 'Space Grotesk' ,padding: "48px 39px 48px 40px"}}>
                 3
               </p>
-              <p className="text-[color:var(--White,#FFF)] not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
+              <p className="text-[color:var(--White,#FFF)] p-8 not-italic leading-[130%] uppercase text-[25px] font-semibold text-white text-start"style={{ fontFamily: 'Space Grotesk' }}>
               Comprehensive Services
               </p>
             </div>

@@ -5,8 +5,8 @@ import logo2 from "../../../src/assets/images/Icon.png";
 const Service = () => {
   return (
     <>
-    <div className=" md:p-[4rem]"style={{background: "var(--Grey-1, #edf0f3)" }}>
-      <div className="flex flex-col  justify-center items-center px-24 py-20"
+    <div className=" md:p-[7rem]"style={{background: "var(--Grey-1, #edf0f3)" }}>
+      <div className="flex flex-col  justify-center items-center px-24 "
   >
     
         <p

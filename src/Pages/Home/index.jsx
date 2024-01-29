@@ -4,24 +4,25 @@ import logo from "../../../src/assets/images/Replace This.png";
 const HomePage = () => {
   return (
     <>
-      <div className="h-full mx-auto p-10 relative bg-home-background bg-cover">
-        <div className="top-110 left-150 gap-20 p-6 text-left space-grotesk-font">
-          <div className="w-full mt-12 ml-8 lg:w-11/12">
+   
+      <div className="h-full mx-auto px-[3rem] relative bg-home-background bg-cover">
+        <div className=" gap-20  md:p-[7rem] p-6 text-left space-grotesk-font">
+          <div className="w-full  lg:w-11/12">
             <p
-              className="text-18 font-medium leading-18 tracking-[0.095em] text-left uppercase  text-white mb-3"
-              style={{ fontFamily: "SpaceGrotesk" }}
+              className="text-[18px] font-medium leading-[100%] tracking-[0.095em] text-left uppercase  text-white mb-3"
+              style={{ fontFamily: "Space Grotesk" }}
             >
               We are the Best Logistic Company
             </p>
 
-            <p className="text-[color:var(--White,#FFF)] mt-4 text-[50px] not-italic font-bold leading-[130%]  font-SpaceGrotesk uppercase text-white">
+            <p className="text-[color:var(--White,#FFF)] mt-4 text-[64px] not-italic font-bold leading-[130%]  font-SpaceGrotesk uppercase text-white">
               Streamline Your Shipping with <br />
               Our Cargo Services
             </p>
 
             <p
-              className="text-18 font-medium mt-4 leading-18 tracking-[0.095em] text-left   text-white mb-3"
-              style={{ fontFamily: "SpaceGrotesk" }}
+              className="text-[18px] not-italic font-normal leading-[140%] pt-8 text-left   text-white mb-3"
+              style={{ fontFamily: "Roboto" }}
             >
               Simplify your shipping process and make it more efficient with our{" "}
               <br /> cargo services. From start to finish, we'll handle
@@ -29,7 +30,7 @@ const HomePage = () => {
               <br /> your cargo arrives safely.
             </p>
           </div>
-          <div className="mt-8 ml-8 flex flex-col lg:flex-row">
+          <div className=" pl-8 px-8  flex flex-col lg:flex-row">
             <div className="lg:flex flex-1 gap-4 items-center">
               <img
                 src={logo}
@@ -43,77 +44,108 @@ const HomePage = () => {
               />
 
               <div className="ml-0 mt-4  lg:mt-0">
-                <p className="text-4xl font-bold mb-2 text-white">26 K</p>
-                <p className=" text-white">Satisfied Clients</p>
+                <p
+                  className="text-[color:var(--White,#FFF)] text-[48px] not-italic font-bold leading-[130%] uppercase
+ 
+  "
+                  style={{ fontFamily: "Space Grotesk" }}
+                >
+                  26 K
+                </p>
+                <p
+                  className=" text-[color:var(--White,#FFF)] text-[16px] not-italic font-normal leading-[140%]
+  
+ "
+                  style={{ fontFamily: "Roboto" }}
+                >
+                  Satisfied Clients
+                </p>
               </div>
               <div className="flex h-[7rem] items-center ">
                 <div className="border border-white h-3/5 border-dashed"></div>
               </div>
               <div className="ml-0 mt-4  lg:mt-0">
-                <p className="text-4xl font-bold mb-2 text-white">12 +</p>
-                <p className=" text-white">Years of Experience</p>
+                <p
+                  className="text-[color:var(--White,#FFF)] text-[48px] not-italic font-bold leading-[130%] uppercase
+ 
+ "
+                  style={{ fontFamily: "Space Grotesk" }}
+                >
+                  12 +
+                </p>
+                <p
+                  className=" text-[color:var(--White,#FFF)] text-[16px] not-italic font-normal leading-[140%]
+  
+  "
+                  style={{ fontFamily: "Roboto" }}
+                >
+                  Years of Experience
+                </p>
               </div>
             </div>
-            <div className="lg:ml-10">
+            <div className="lg:pl-20 pr-8 pt-16">
               <div className="flex lg:flex-row flex-col">
                 <button
-                  className="w-full lg:w-[140px] h-[46px] mb-4 lg:mb-0"
-                  style={{
-                    background: "var(--Dark-Blue-2, #090E23)",
-                    color: "#1195D6",
-                    borderRadius: "8px 0px 0px 0px",
-                  }}
+                  className="flex items-start gap-[10px] px-[24px] py-[16px] rounded-[8px_0px_0px_0px]
+                  "
+                  style={{ background: "var(--Dark-Blue-2, #090e23)" }}
                 >
-                  TRACKING
+                  <p
+                    className="text-[#1195D6] text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase
+  
+  "
+                    style={{ fontamily: "Space Grotesk" }}
+                  >
+                    Tracking
+                  </p>
                 </button>
                 <button
-                  className="text-gray-600 bg-black w-full lg:w-[140px] h-[46px] "
-                  style={{
-                    borderRadius: "0px 8px 8px 0px",
-                  }}
+                  className="flex items-start gap-[10px] px-[24px] py-[16px] rounded-[0px_8px_0px_0px]"
+                  style={{ background: "var(--Dark-Blue-3, #060a17)" }}
                 >
-                  RATE & SHIP
+                  <p
+                    className="text-[color:var(--Grey-2,#5C6C7B)] text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase"
+                    style={{ fontFamily: "Space Grotesk" }}
+                  >
+                    Rate & Ship
+                  </p>
                 </button>
               </div>
               <div
-                className="flex flex-col p-6"
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  padding: "24px 24px 25px 24px",
-                  justifyContent: "center",
-                  background: "var(--Dark-Blue-2, #090E23)",
-                  gap: "16px",
-                  borderRadius: "0px 8px 8px 8px",
-                  width: "100%",
-                }}
+                className="flex flex-col justify-center items-start gap-[16px] pt-[24px] pb-[25px] px-[24px] rounded-[0px_8px_8px_8px]
+                "
+                style={{ background: "var(--Dark-Blue-2, #090e23)" }}
               >
-                <div className="flex items-center mt-4 h-12 ">
-                  <input
-                    type="text"
-                    placeholder="Tracking ID "
-                    className="p-2 border border-gray-600 bg-transparent w-full lg:w-[285px] h-[50px] rounded"
-                    style={{
-                      color: "#090E23",
-                      borderRadius: "8px",
-                      borderColor: "var(--Grey-2, #5C6C7B)",
-                    }}
-                  ></input>
+                <div className="flex items-center gap-[1rem] pt-4  ">
+                  <button className="flex w-[285px] items-start gap-[10px] border border-[color:var(--Grey-2,#5C6C7B)] px-[16px] py-[18px] rounded-[8px] border-solid">
+                    <p
+                      className="text-[color:var(--Grey-2,#5C6C7B)] text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase"
+                      style={{ fontFamily: "Space Grotesk" }}
+                    >
+                      tracking id
+                    </p>
+                  </button>
 
                   <button
-                    className="ml-0 lg:ml-4 w-full lg:w-[211px] h-[50px] text-white"
-                    style={{
-                      borderRadius: "8px",
-                      background: "#1195D6",
-                    }}
+                    className="flex w-[211px] justify-center items-center gap-[10px] px-[54px] py-[18px] rounded-[8px]
+                    "
+                    style={{ background: "#1195d6" }}
                   >
-                    Track
+                    <p
+                      className="text-[color:var(--White,#FFF)]  text-[14px] not-italic font-medium leading-[100%] tracking-[1.33px] uppercase"
+                      style={{ fontFamily: "Space Grotesk" }}
+                    >
+                      track
+                    </p>
                   </button>
                 </div>
-                <p className="text-body2 mt-2 text-white">
+                <p
+                  className="text-[color:var(--White,#FFF)]    text-[12px] not-italic font-normal leading-[140%]"
+                  style={{ fontFamily: "Roboto" }}
+                  /* Caption */
+                >
                   See the tracking ID on the shipping document.{" "}
-                  <span className="" style={{ color: "#1195D6" }}>
+                  <span className="text-[12px] leading-[140%]" style={{color:"#1195D6" ,fontFamily: "Roboto" }}>
                     Help
                   </span>
                 </p>
@@ -122,6 +154,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

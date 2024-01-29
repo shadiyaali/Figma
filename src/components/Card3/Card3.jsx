@@ -7,7 +7,7 @@ const Card3 = () => {
   const numberOfImages = 5;
 
   return (
-    <div className=" outer-layer  md:p-[5rem] ">
+    <div className=" outer-layer  md:p-[7rem] ">
       <div className=" w-full pl-[3rem] pr-[2rem] gap-[5rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
         {/* Left Section */}
         <div className="flex-[0.5]    flex flex-col justify-between items-center">

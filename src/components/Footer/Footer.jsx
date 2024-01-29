@@ -5,7 +5,7 @@ import logo9 from "../../../src/assets/images/man.png";
 const Footer = () => {
   return (
     <div
-      className=" p-3 md:px-36  mt-18 pb-0"
+      className=" p-3 md:px-48  mt-18 pb-0"
       
            style={{ background: "var(--Dark-Blue-2, #090E23)" }}
     >
