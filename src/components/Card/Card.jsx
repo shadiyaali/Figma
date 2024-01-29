@@ -6,7 +6,7 @@ const Card = () => {
   return (
 
 
-<div className="flex h-[246px] justify-center items-center shrink-0 px-[190px] "
+<div className="flex h-[246px] justify-center items-center shrink-0 px-[14rem] "
 style={{
      
     background: "#1195D6",

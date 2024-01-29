@@ -1,6 +1,6 @@
 .outer-layer {
      
-    gap: 20px;
+    /* gap: 20px; */
     
     background: var(--Grey-1, #edf0f3);
   }

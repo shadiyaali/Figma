@@ -7,8 +7,8 @@ const Card3 = () => {
   const numberOfImages = 5;
 
   return (
-    <div className=" outer-layer  md:p-[7rem] ">
-      <div className=" w-full pl-[3rem] pr-[2rem] gap-[5rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
+    <div className=" outer-layer  md:p-[7rem]  ">
+      <div className=" w-full pl-[3rem] pr-[2rem] pb-10 gap-[5rem] p-1  grid grid-cols-2 place-content-center  md:px-20">
         {/* Left Section */}
         <div className="flex-[0.5]    flex flex-col justify-between items-center">
           <div className=" w-full flex flex-col mt-14 justify-start"style={{ fontFamily: "Space Grotesk" }}>
@@ -37,7 +37,7 @@ const Card3 = () => {
          
           {/* <div className=" mt-6  flex flex-col "> */}
             <div
-              className="flex w-full flex-col mt-8 justify-between   aspect-auto  rounded"
+              className="flex w-full flex-col mt-6 justify-between   aspect-auto  rounded"
               style={{
                 background: "var(--Dark-Blue-2, #090E23)",
                 padding: "34px 46px 34px 38px",

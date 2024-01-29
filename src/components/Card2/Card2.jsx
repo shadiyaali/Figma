@@ -3,8 +3,8 @@ import logo7 from "../../../src/assets/images/Icon2.png";
 
 const Card2 = () => {
   return (
-    <div className=" aspect-[2] bg-cover-background bg-cover bg-black bg-blend-overlay bg-opacity-40 flex flex-col items-center pt-1">
-      <p className="text-white mt-4 text-center text-[64px] not-italic font-bold  leading-[130%] uppercase  "style={{fontFamily: "Space Grotesk"}}>
+    <div className=" aspect-[2]  bg-cover-background bg-cover bg-slate-900 bg-blend-overlay bg-opacity-40 b flex flex-col items-center ">
+      <p className="text-white  pt-40 text-center text-[64px] not-italic font-bold  leading-[130%] uppercase  "style={{fontFamily: "Space Grotesk"}}>
         See it in Action
       </p>
 
