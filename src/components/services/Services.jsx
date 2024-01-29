@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <>
     <div className=" md:p-[7rem]"style={{background: "var(--Grey-1, #edf0f3)" }}>
-      <div className="flex flex-col  justify-center items-center px-24 "
+      <div className="flex flex-col  justify-center items-center px-[5rem] "
   >
     
         <p

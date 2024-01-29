@@ -5,8 +5,8 @@ const HomePage = () => {
   return (
     <>
    
-      <div className="h-full mx-auto px-[3rem] relative bg-home-background bg-cover">
-        <div className=" gap-20  md:p-[7rem] p-6 text-left space-grotesk-font">
+      <div className="h-full mx-auto p-[5rem] relative bg-home-background bg-cover">
+        <div className=" gap-20  md:px-[7rem] p-6 text-left space-grotesk-font">
           <div className="w-full  lg:w-11/12">
             <p
               className="text-[18px] font-medium leading-[100%] tracking-[0.095em] text-left uppercase  text-white mb-3"
@@ -30,12 +30,12 @@ const HomePage = () => {
               <br /> your cargo arrives safely.
             </p>
           </div>
-          <div className=" pl-8 px-8  flex flex-col lg:flex-row">
-            <div className="lg:flex flex-1 gap-4 items-center">
+          <div className=" pl-1 px-8  flex flex-col lg:flex-row">
+            <div className="lg:flex flex-1 gap-8 items-center">
               <img
                 src={logo}
                 alt="Logo"
-                className="w-100 h-100 logo mr-8"
+                className="w-100 h-100 logo "
                 style={{
                   borderRadius: "6px",
                   background:
@@ -43,9 +43,9 @@ const HomePage = () => {
                 }}
               />
 
-              <div className="ml-0 mt-4  lg:mt-0">
+              <div className="pl-3  mt-4 lg:mt-0">
                 <p
-                  className="text-[color:var(--White,#FFF)] text-[48px] not-italic font-bold leading-[130%] uppercase
+                  className="text-[color:var(--White,#FFF)]  text-[48px] not-italic font-bold leading-[130%] uppercase
  
   "
                   style={{ fontFamily: "Space Grotesk" }}
@@ -53,7 +53,7 @@ const HomePage = () => {
                   26 K
                 </p>
                 <p
-                  className=" text-[color:var(--White,#FFF)] text-[16px] not-italic font-normal leading-[140%]
+                  className=" text-[color:var(--White,#FFF)]  text-[16px] not-italic font-normal leading-[140%]
   
  "
                   style={{ fontFamily: "Roboto" }}
@@ -83,7 +83,7 @@ const HomePage = () => {
                 </p>
               </div>
             </div>
-            <div className="lg:pl-20 pr-8 pt-16">
+            <div className="lg:pl-20 pr-6 pt-16">
               <div className="flex lg:flex-row flex-col">
                 <button
                   className="flex items-start gap-[10px] px-[24px] py-[16px] rounded-[8px_0px_0px_0px]
