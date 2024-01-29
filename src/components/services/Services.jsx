@@ -23,21 +23,21 @@ const Service = () => {
 
         <div className="flex w-full gap-[18px] mt-8">
           <div
-            className="flex flex-col items-start gap-[32px] text-start   rounded-[12px]   justify-start "
+            className="flex flex-col items-start gap-[32px] text-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white rounded-[12px]   justify-start "
             style={{
-              background: "var(--Dark-Blue-2, #121d50)",
+              
               padding: "48px 40px 70px 40px"
             }}
           >
             <img src={logo2} alt="Logo2" className=" logo " />
-            <p className=" text-[25px] not-italic font-bold leading-130 uppercase text-white  justify-start"style={{fontFamily: "Space Grotesk"}}>
+            <p className=" text-[25px] not-italic font-bold leading-130 uppercase   justify-start"style={{fontFamily: "Space Grotesk"}}>
               Ocean Shipping
             </p>
 
             <p
               className="not-italic text-[16px]  font-normal  leading-[140%] justify-start "
               style={{
-                color: "var(--White, #FFF)",
+                
                 fontFamily: "Roboto"
               }}
             >
@@ -46,9 +46,9 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  justify-start  bg-white">
+          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  justify-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white ">
             <img src={logo2} alt="Logo2" className=" logo " />
-            <p className=" text-[25px] not-italic font-bold leading-130 uppercase    justify-start"style={{fontFamily: "Space Grotesk",color:" var(--Dark-Blue-1, #121D50)"}}>
+            <p className=" text-[25px] not-italic font-bold leading-130 uppercase    justify-start"style={{fontFamily: "Space Grotesk", }}>
               Air Shipping
             </p>
 
@@ -56,15 +56,15 @@ const Service = () => {
              style={{
               
               fontFamily: "Roboto",
-              color: "var(--Grey-2, #5C6C7B)"
+             
             }}>
               we believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs.{" "}
             </p>
           </div>
-          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] w-  justify-start bg-white ">
+          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] w-  justify-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className=" text-[25px]  not-italic font-bold leading-130 uppercase justify-start"style={{fontFamily: "Space Grotesk",color:" var(--Dark-Blue-1, #121D50)"}}>
+            <p className=" text-[25px]  not-italic font-bold leading-130 uppercase justify-start"style={{fontFamily: "Space Grotesk", }}>
               Truck Shipping
             </p>
 
@@ -72,7 +72,7 @@ const Service = () => {
               style={{
               
                 fontFamily: "Roboto",
-                color: "var(--Grey-2, #5C6C7B)"
+                
               }}>
               we believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs.{" "}
@@ -80,25 +80,24 @@ const Service = () => {
           </div>
         </div>
         <div className="flex gap-[20px]">
-          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start  bg-white">
+          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className=" text-[25px]   not-italic font-bold leading-130 uppercase    justify-start"style={{fontFamily: "Space Grotesk",color:" var(--Dark-Blue-1, #121D50)"}}>
+            <p className=" text-[25px]   not-italic font-bold leading-130 uppercase    justify-start"style={{fontFamily: "Space Grotesk"}}>
               Custom Clearance
             </p>
 
             <p className="not-italic text-[16px]  font-normal  leading-[140%] justify-start "
               style={{
               
-                fontFamily: "Roboto",
-                color: "var(--Grey-2, #5C6C7B)"
+                fontFamily: "Roboto", 
               }}>
               we believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs.{" "}
             </p>
           </div>
-          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] mt-6   justify-start bg-white ">
+          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px] mt-6   justify-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white ">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className=" text-[25px]  not-italic font-bold leading-130 uppercase justify-start"style={{fontFamily: "Space Grotesk",color:" var(--Dark-Blue-1, #121D50)"}}>
+            <p className=" text-[25px]  not-italic font-bold leading-130 uppercase justify-start"style={{fontFamily: "Space Grotesk"}}>
               Freight Forwarding
             </p>
 
@@ -106,16 +105,16 @@ const Service = () => {
               style={{
               
                 fontFamily: "Roboto",
-                color: "var(--Grey-2, #5C6C7B)"
+                 
               }}>
               we believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs.{" "}
             </p>
           </div>
 
-          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start bg-white ">
+          <div className="flex flex-col items-start gap-[32px] text-start pt-[48px] pb-[70px] px-[40px] rounded-[12px]  mt-6 justify-start bg-white hover:bg-[#121d50] text-[#121d50] hover:text-white">
             <img src={logo2} alt="Logo2" className="w-100 h-100 logo " />
-            <p className=" text-[25px]   not-italic font-bold leading-130 uppercase   justify-start"style={{fontFamily: "Space Grotesk",color:" var(--Dark-Blue-1, #121D50)"}}>
+            <p className=" text-[25px]   not-italic font-bold leading-130 uppercase   justify-start"style={{fontFamily: "Space Grotesk"}}>
               Insurance
             </p>
 
@@ -123,7 +122,7 @@ const Service = () => {
               style={{
               
                 fontFamily: "Roboto",
-                color: "var(--Grey-2, #5C6C7B)"
+               
               }}>
               we believe in providing our clients with personalized and
               efficient logistics solutions that meet their unique needs.{" "}

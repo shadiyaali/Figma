@@ -83,7 +83,7 @@ const HomePage = () => {
                 </p>
               </div>
             </div>
-            <div className="lg:pl-20 pr-6 pt-16">
+            <div className="lg:pl-18  pt-16">
               <div className="flex lg:flex-row flex-col">
                 <button
                   className="flex items-start gap-[10px] px-[24px] py-[16px] rounded-[8px_0px_0px_0px]
